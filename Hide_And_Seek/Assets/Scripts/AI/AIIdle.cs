@@ -28,7 +28,10 @@ public class AIIdle : AIFSMState
         }
         if (idleTime <= 0.0f)
         {
-            _manager.SetState(AIState.Roam);
+            if (Random.Range(0.0f, 1.0f) >= 0.3f)
+                _manager.SetState(AIState.Roam);
+            else
+                _manager.SetState(AIState.Rage);
             return;
         }
         idleTime -= Time.deltaTime;

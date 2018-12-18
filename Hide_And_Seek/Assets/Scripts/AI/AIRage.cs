@@ -21,9 +21,7 @@ public class AIRage : AIFSMState
         timer = 5.0f;
         StartCoroutine(DamageInArea());
 
-        _pos = new Vector3(Mathf.Clamp(transform.position.x + Random.Range(-10.0f, 10.0f), -25.0f, 25.0f), 
-            0.0f, Mathf.Clamp(transform.position.z + Random.Range(-10.0f, 10.0f), -25.0f, 25.0f));
-
+        SetPos();
         _manager.Agent.SetDestination(_pos);
     }
 
@@ -47,10 +45,9 @@ public class AIRage : AIFSMState
             _manager.SetState(AIState.Idle);
             return;
         }
-        if (Vector3.Distance(transform.position, _pos) <= 1.0f)
+        if (Vector3.Distance(transform.position, _pos) <= 2.0f)
         {
-            _pos = new Vector3(Mathf.Clamp(transform.position.x + Random.Range(-10.0f, 10.0f), -25.0f, 25.0f),
-                0.0f, Mathf.Clamp(transform.position.z + Random.Range(-10.0f, 10.0f), -25.0f, 25.0f));
+            SetPos();
 
             _manager.Agent.SetDestination(_pos);
         }
@@ -62,9 +59,23 @@ public class AIRage : AIFSMState
         PlayerStat player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStat>();
         while (true)
         {
-            if (Vector3.Distance(transform.position, player.transform.position) <= _manager.Stat.AttackRange)
+            if (Vector3.Distance(transform.position, player.transform.position) <= _manager.Stat.AttackRange * 1.5f)
                 player.TakeDamage(_manager.Stat.RageDamage);
             yield return new WaitForSeconds(1.0f);
+        }
+    }
+
+    void SetPos()
+    {
+        if (_manager.SoundPos != _manager.nullSoundPos)
+        {
+            _pos = new Vector3(Mathf.Clamp(_manager.SoundPos.x + Random.Range(-7.0f, 7.0f), -25.0f, 25.0f),
+                0.0f, Mathf.Clamp(_manager.SoundPos.z + Random.Range(-7.0f, 7.0f), -25.0f, 25.0f));
+        }
+        else
+        {
+            _pos = new Vector3(Mathf.Clamp(transform.position.x + Random.Range(-10.0f, 10.0f), -25.0f, 25.0f),
+                0.0f, Mathf.Clamp(transform.position.z + Random.Range(-10.0f, 10.0f), -25.0f, 25.0f));
         }
     }
 }
