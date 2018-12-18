@@ -1,8 +1,8 @@
-## GEPFinal
-# FSM
+# GEPFinal
+## FSM
 https://youtu.be/W9SM4E6ar04
 
-# Behavior Tree
+## Behavior Tree
 https://youtu.be/6X_AhbqhbDY
 
 ![2](https://github.com/shi1252/GEPFinal/blob/master/ppt/slide2.PNG?raw=true)
