@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: bd69af74c2b760d43b976a40b1fe66fb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Goble_Bip001
+    100004: Goble_Bip001 Footsteps
+    100006: Goble_Bip001 Head
+    100008: Goble_Bip001 HeadNub
+    100010: Goble_Bip001 L Calf
+    100012: Goble_Bip001 L Clavicle
+    100014: Goble_Bip001 L Foot
+    100016: Goble_Bip001 L Forearm
+    100018: Goble_Bip001 L Hand
+    100020: Goble_Bip001 L Thigh
+    100022: Goble_Bip001 L Toe0
+    100024: Goble_Bip001 L Toe0Nub
+    100026: Goble_Bip001 L UpperArm
+    100028: Goble_Bip001 Neck
+    100030: Goble_Bip001 Pelvis
+    100032: Goble_Bip001 Prop1
+    100034: Goble_Bip001 R Calf
+    100036: Goble_Bip001 R Clavicle
+    100038: Goble_Bip001 R Foot
+    100040: Goble_Bip001 R Forearm
+    100042: Goble_Bip001 R Hand
+    100044: Goble_Bip001 R Thigh
+    100046: Goble_Bip001 R Toe0
+    100048: Goble_Bip001 R Toe0Nub
+    100050: Goble_Bip001 R UpperArm
+    100052: Goble_Bip001 Spine
+    100054: Goble_Bip001 Spine1
+    100056: Goble_L_ear
+    100058: Goble_L_eye_Bone001
+    100060: Goble_mon02
+    100062: Goble_R_ear001
+    100064: Goble_R_eye_Bone001
+    100066: Goble_weapon
+    400000: //RootNode
+    400002: Goble_Bip001
+    400004: Goble_Bip001 Footsteps
+    400006: Goble_Bip001 Head
+    400008: Goble_Bip001 HeadNub
+    400010: Goble_Bip001 L Calf
+    400012: Goble_Bip001 L Clavicle
+    400014: Goble_Bip001 L Foot
+    400016: Goble_Bip001 L Forearm
+    400018: Goble_Bip001 L Hand
+    400020: Goble_Bip001 L Thigh
+    400022: Goble_Bip001 L Toe0
+    400024: Goble_Bip001 L Toe0Nub
+    400026: Goble_Bip001 L UpperArm
+    400028: Goble_Bip001 Neck
+    400030: Goble_Bip001 Pelvis
+    400032: Goble_Bip001 Prop1
+    400034: Goble_Bip001 R Calf
+    400036: Goble_Bip001 R Clavicle
+    400038: Goble_Bip001 R Foot
+    400040: Goble_Bip001 R Forearm
+    400042: Goble_Bip001 R Hand
+    400044: Goble_Bip001 R Thigh
+    400046: Goble_Bip001 R Toe0
+    400048: Goble_Bip001 R Toe0Nub
+    400050: Goble_Bip001 R UpperArm
+    400052: Goble_Bip001 Spine
+    400054: Goble_Bip001 Spine1
+    400056: Goble_L_ear
+    400058: Goble_L_eye_Bone001
+    400060: Goble_mon02
+    400062: Goble_R_ear001
+    400064: Goble_R_eye_Bone001
+    400066: Goble_weapon
+    4300000: Goble_weapon
+    4300002: Goble_mon02
+    7400000: GB_Idle
+    11100000: //RootNode
+    13700000: Goble_mon02
+    13700002: Goble_weapon
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 8650faf7a4f77934a962b4034f3279bf, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GB_Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Goble_Bip001
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Footsteps
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 L Thigh
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 L Thigh/Goble_Bip001
+          L Calf
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 L Thigh/Goble_Bip001
+          L Calf/Goble_Bip001 L Foot
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 L Thigh/Goble_Bip001
+          L Calf/Goble_Bip001 L Foot/Goble_Bip001 L Toe0
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 L Thigh/Goble_Bip001
+          L Calf/Goble_Bip001 L Foot/Goble_Bip001 L Toe0/Goble_Bip001 L Toe0Nub
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 R Thigh
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 R Thigh/Goble_Bip001
+          R Calf
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 R Thigh/Goble_Bip001
+          R Calf/Goble_Bip001 R Foot
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 R Thigh/Goble_Bip001
+          R Calf/Goble_Bip001 R Foot/Goble_Bip001 R Toe0
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 R Thigh/Goble_Bip001
+          R Calf/Goble_Bip001 R Foot/Goble_Bip001 R Toe0/Goble_Bip001 R Toe0Nub
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 Head
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 Head/Goble_Bip001 HeadNub
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 Head/Goble_L_ear
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 Head/Goble_L_eye_Bone001
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 Head/Goble_R_ear001
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 Head/Goble_R_eye_Bone001
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 L Clavicle
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 L Clavicle/Goble_Bip001 L UpperArm
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 L Clavicle/Goble_Bip001 L UpperArm/Goble_Bip001 L Forearm
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 L Clavicle/Goble_Bip001 L UpperArm/Goble_Bip001 L Forearm/Goble_Bip001
+          L Hand
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 R Clavicle
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 R Clavicle/Goble_Bip001 R UpperArm
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 R Clavicle/Goble_Bip001 R UpperArm/Goble_Bip001 R Forearm
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Pelvis/Goble_Bip001 Spine/Goble_Bip001 Spine1/Goble_Bip001
+          Neck/Goble_Bip001 R Clavicle/Goble_Bip001 R UpperArm/Goble_Bip001 R Forearm/Goble_Bip001
+          R Hand
+        weight: 1
+      - path: Goble_Bip001/Goble_Bip001 Prop1
+        weight: 1
+      - path: Goble_mon02
+        weight: 1
+      - path: Goble_weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.013
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.013
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: Goble(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goble_weapon
+      parentName: Goble(Clone)
+      position: {x: 0.5112843, y: 0.77000475, z: 0.019434515}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goble_mon02
+      parentName: Goble(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goble_Bip001
+      parentName: Goble(Clone)
+      position: {x: -0, y: 0.58392173, z: -0.042531367}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Goble_Bip001 Footsteps
+      parentName: Goble_Bip001
+      position: {x: -0, y: 0, z: -0.5879093}
+      rotation: {x: 0, y: 0, z: -0.7071063, w: 0.70710725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goble_Bip001 Prop1
+      parentName: Goble_Bip001
+      position: {x: -0.06196518, y: -0.5112844, z: 0.18608299}
+      rotation: {x: -0, y: -0, z: 0.00000071525574, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goble_Bip001 Pelvis
+      parentName: Goble_Bip001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goble_Bip001 Spine
+      parentName: Goble_Bip001 Pelvis
+      position: {x: -0.15540887, y: -0.021303963, z: 0.0000002740308}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: Goble_Bip001 Spine1
+      parentName: Goble_Bip001 Spine
+      position: {x: -0.2200904, y: -0.00020456314, z: -5.673828e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: Goble_Bip001 Neck
+      parentName: Goble_Bip001 Spine1
+      position: {x: -0.3513276, y: -0.01503983, z: -0.000000041714436}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: Goble_Bip001 Head
+      parentName: Goble_Bip001 Neck
+      position: {x: -0.07810702, y: -0.0075569595, z: -0.000000011104945}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 0.99999917, z: 0.9999996}
+    - name: Goble_Bip001 HeadNub
+      parentName: Goble_Bip001 Head
+      position: {x: -0.7861531, y: -0.000000049591065, z: -1.891749e-13}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goble_R_eye_Bone001
+      parentName: Goble_Bip001 Head
+      position: {x: -0.29334375, y: 0.11129227, z: -0.08829155}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -2.9861727, y: -1.4078581, z: -1.0000008}
+    - name: Goble_R_ear001
+      parentName: Goble_Bip001 Head
+      position: {x: -0.32306546, y: 0.1246347, z: -0.28886697}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -2.6900856, y: -1.0000014, z: -1.0000014}
+    - name: Goble_L_ear
+      parentName: Goble_Bip001 Head
+      position: {x: -0.32306576, y: 0.124633856, z: 0.29409388}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 2.6900864, y: 1.0000006, z: 1.0000002}
+    - name: Goble_L_eye_Bone001
+      parentName: Goble_Bip001 Head
+      position: {x: -0.29334384, y: 0.11129202, z: 0.08581446}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 2.9699483, y: 1.4078581, z: 1.000001}
+    - name: Goble_Bip001 R Clavicle
+      parentName: Goble_Bip001 Neck
+      position: {x: 0.010103584, y: -0.00752594, z: -0.14109944}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.000001, y: 1.0000004, z: 1.000001}
+    - name: Goble_Bip001 R UpperArm
+      parentName: Goble_Bip001 R Clavicle
+      position: {x: -0.13015483, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000002}
+    - name: Goble_Bip001 R Forearm
+      parentName: Goble_Bip001 R UpperArm
+      position: {x: -0.35164657, y: 0.000000012397766, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: Goble_Bip001 R Hand
+      parentName: Goble_Bip001 R Forearm
+      position: {x: -0.20316207, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1.0000006, z: 0.99999994}
+    - name: Goble_Bip001 L Clavicle
+      parentName: Goble_Bip001 Neck
+      position: {x: 0.010103584, y: -0.0075267334, z: 0.14109941}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000008}
+    - name: Goble_Bip001 L UpperArm
+      parentName: Goble_Bip001 L Clavicle
+      position: {x: -0.13015477, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000007}
+    - name: Goble_Bip001 L Forearm
+      parentName: Goble_Bip001 L UpperArm
+      position: {x: -0.35164657, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.0000006}
+    - name: Goble_Bip001 L Hand
+      parentName: Goble_Bip001 L Forearm
+      position: {x: -0.20316204, y: 0.000000024795533, z: -0.000000049591065}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 1.0000006, z: 1.0000001}
+    - name: Goble_Bip001 R Thigh
+      parentName: Goble_Bip001 Spine
+      position: {x: 0.15539192, y: 0.021428494, z: -0.2724037}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.000001}
+    - name: Goble_Bip001 R Calf
+      parentName: Goble_Bip001 R Thigh
+      position: {x: -0.28588524, y: -0.000000024795533, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000008}
+    - name: Goble_Bip001 R Foot
+      parentName: Goble_Bip001 R Calf
+      position: {x: -0.2540175, y: 0, z: 0.000000024795533}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000004}
+    - name: Goble_Bip001 R Toe0
+      parentName: Goble_Bip001 R Foot
+      position: {x: -0.115137, y: 0.14817631, z: -0.000000024795533}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Goble_Bip001 R Toe0Nub
+      parentName: Goble_Bip001 R Toe0
+      position: {x: -0.015017873, y: 0, z: 0.000000024795533}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Goble_Bip001 L Thigh
+      parentName: Goble_Bip001 Spine
+      position: {x: 0.15539192, y: 0.021426989, z: 0.27240378}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000006}
+    - name: Goble_Bip001 L Calf
+      parentName: Goble_Bip001 L Thigh
+      position: {x: -0.28588524, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+    - name: Goble_Bip001 L Foot
+      parentName: Goble_Bip001 L Calf
+      position: {x: -0.2540175, y: -0.000000006198883, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000005}
+    - name: Goble_Bip001 L Toe0
+      parentName: Goble_Bip001 L Foot
+      position: {x: -0.11513702, y: 0.3324573, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000006, y: 1, z: 1.0000002}
+    - name: Goble_Bip001 L Toe0Nub
+      parentName: Goble_Bip001 L Toe0
+      position: {x: -0.015017836, y: -3.874302e-10, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1.0000001, y: -1, z: -1.0000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Goble_Bip001
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e30a2be7bb1546f4181d5a21241ce53a,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
